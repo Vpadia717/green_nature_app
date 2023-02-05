@@ -41,14 +41,17 @@ class AppHome extends StatelessWidget {
           children: [
             Text(
               "Heading",
+              // ignore: deprecated_member_use
               style: Theme.of(context).textTheme.headline3,
             ),
             Text(
               "Sub-Heading",
+              // ignore: deprecated_member_use
               style: Theme.of(context).textTheme.subtitle1,
             ),
             Text(
               "Paragraph",
+              // ignore: deprecated_member_use
               style: Theme.of(context).textTheme.bodyText1,
             ),
             const Padding(
